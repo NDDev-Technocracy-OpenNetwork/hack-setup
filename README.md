@@ -3,7 +3,7 @@
 
 Shared agent setup and reproducible development tooling for hackathon teams. Codex project surfaces and pinned toolchain.
 
-[NDDev OpenNetwork](https://github.com/NDDev-Technocracy-OpenNetwork) · [Repository](https://github.com/NDDev-Technocracy-OpenNetwork/hack-setup)
+[NDDev OpenNetwork](https://github.com/NDDev-Technocracy-OpenNetwork) · [Repository](https://github.com/rldyourmnd/hack-setup)
 
 This repository is a hackathon prototype or supporting tool. Follow the project-specific setup below; cloud integrations require your own configuration and credentials.
 
@@ -35,7 +35,7 @@ cd hack-setup
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/NDDev-Technocracy-OpenNetwork/hack-setup.git
+git clone https://github.com/rldyourmnd/hack-setup.git
 cd hack-setup
 powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1 --member <danil|ivan|artem>
 . .\install\env.ps1
