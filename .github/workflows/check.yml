@@ -212,7 +212,7 @@ jobs:
           git -C "$work" push -q /tmp/upstream.git HEAD:dev
           sudo touch /opt/hack-app/.env
           want=$(git -C "$work" rev-parse HEAD)
-          for i in $(seq 1 24); do
+          for _ in $(seq 1 24); do
             sudo test -f /opt/hack-app/.deployed-sha && break
             sleep 5
           done
