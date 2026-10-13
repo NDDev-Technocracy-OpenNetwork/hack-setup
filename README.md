@@ -1,4 +1,15 @@
+<!-- nddev-public-hackathon -->
 # hack-setup
+
+Shared agent setup and reproducible development tooling for hackathon teams. Codex project surfaces and pinned toolchain.
+
+[NDDev OpenNetwork](https://github.com/NDDev-Technocracy-OpenNetwork) · [Repository](https://github.com/NDDev-Technocracy-OpenNetwork/hack-setup)
+
+This repository is a hackathon prototype or supporting tool. Follow the project-specific setup below; cloud integrations require your own configuration and credentials.
+
+---
+
+## hack-setup
 
 Shared Codex `0.157.1` setup for a three-person team that will later work in
 one private repo: `BAITC-Hacks/hack-a58598e0-saint-tibo`.
@@ -24,7 +35,7 @@ cd hack-setup
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/NDDev-Archive/hack-setup.git
+git clone https://github.com/NDDev-Technocracy-OpenNetwork/hack-setup.git
 cd hack-setup
 powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1 --member <danil|ivan|artem>
 . .\install\env.ps1
