@@ -8,18 +8,20 @@ repository:
   lifecycle: active
 provider:
   type: github
-  installation: installation:github-nddev-technocracy-opennetwork
+  installation: installation:github-personal
   repository_id: 1377434323
-  owner: NDDev-Technocracy-OpenNetwork
+  owner: rldyourmnd
   name: hack-setup
   aliases:
   - owner: NDDev-OpenNetwork
     name: hack-setup
   - owner: NDDev-Technocracy-Archive
     name: hack-setup
+  - owner: NDDev-Technocracy-OpenNetwork
+    name: hack-setup
 classification:
   portfolios:
-  - portfolio:nddev-technocracy-opennetwork
+  - portfolio:rldyourmnd
   visibility_contract: public
   data_classification: public
 product:
@@ -41,7 +43,7 @@ product:
 policy:
   profiles:
   - repository-default
-  - organization-default
+  - personal-default
   rollout_ring: standard
 git:
   default_branch: main
